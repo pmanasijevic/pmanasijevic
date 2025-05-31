@@ -65,11 +65,10 @@ This project demonstrates a basic but powerful CI/CD pipeline using **Jenkins** 
 
 Example Jenkinsfile Stages
 
-pipeline {
-    agent any
-    stages {
 
-    
+
+    Pipeline{
+        Agent any
         stage('Build') {
             steps {
                 sh 'docker build -t my-app .'
@@ -86,7 +85,7 @@ pipeline {
             }
         }
     }
-}
+    }    
 
 
 
