@@ -97,7 +97,7 @@ AWS (EC2, S3, IAM, CloudWatch)
 
 Docker, Docker Swarm
 
-Jenkins, GitHub Actions
+Jenkins, GitHub 
 
 SQL / MongoDB
 
